@@ -1,5 +1,6 @@
 {
   "name": "diflowrin",
+  "description": "Plugins that make Claude easier to work with for non-technical people building software with AI.",
   "owner": {
     "name": "Diflowrin",
     "email": "admin@diflowrin.com",
