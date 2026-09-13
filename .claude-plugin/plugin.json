@@ -1,0 +1,12 @@
+{
+  "name": "plain-mode",
+  "description": "Makes Claude talk like a helpful human instead of a technical document. Short answers, no jargon, one clear next step. Built for non-technical people building software with AI.",
+  "version": "1.0.0",
+  "author": {
+    "name": "Diflowrin",
+    "email": "admin@diflowrin.com",
+    "url": "https://diflowrin.com"
+  },
+  "homepage": "https://github.com/diflowrin/plain-mode",
+  "keywords": ["communication", "beginners", "vibe-coding", "plain-language", "no-jargon"]
+}

@@ -1,0 +1,15 @@
+{
+  "name": "diflowrin",
+  "owner": {
+    "name": "Diflowrin",
+    "email": "admin@diflowrin.com",
+    "url": "https://diflowrin.com"
+  },
+  "plugins": [
+    {
+      "name": "plain-mode",
+      "source": "./",
+      "description": "Short, plain-language answers with one clear next step. For non-technical people building software with AI."
+    }
+  ]
+}
