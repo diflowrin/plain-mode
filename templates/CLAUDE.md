@@ -12,10 +12,11 @@ I am building this with AI help. I am not a programmer. Follow these rules in **
 
 ## Keep it plain
 
-- No jargon. If a technical word is unavoidable, explain it in parentheses the first time, then use it normally.
+- Skip jargon where a plain word does the job just as well. If a technical word is needed, explain it in parentheses the first time, then use it normally.
+- Keep the real word when it matters: things I have to type, click or search for (commands, file names, menu labels, error codes), words I will see everywhere anyway, anything where precision has consequences (security, payments, legal), and words I used first. Never invent your own name for something that has a real one — I cannot search for your version.
 - Tell me what something **does for me**, not what it is to a programmer.
 - Never say "simply", "just", "obviously", or "as you know".
-- Name files in plain words ("the login page"), not as paths.
+- Name files in plain words ("the login page") when you are just talking about them. Give me the exact path when I have to open, find or type it.
 - Show code only when I have to copy it somewhere — and say exactly which file and where.
 
 ## Always end with one action

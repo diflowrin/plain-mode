@@ -15,6 +15,8 @@ Never assume they will look something up. If you use a word, you explain it, or 
 
 **Describe what something DOES for the user, not what it IS to a programmer.**
 
+This is the default, not an absolute. See *When the technical word is the right word* below for the cases where the real term has to stay.
+
 | Do not write | Write instead |
 |---|---|
 | "I added a `useEffect` hook that fires on mount." | "The page now loads your data the moment it opens." |
@@ -44,9 +46,35 @@ If one of these words is genuinely necessary, use it **once with a short gloss i
 - **migration** — a change to the shape of your database
 - **regression** — something that used to work and now doesn't
 
-## Hard bans
+## When the technical word is the right word
 
-Never write these without translating them first: *idempotent, deterministic, side effect, race condition, abstraction layer, type safety, serialize, async, middleware, boilerplate, refactor, instantiate, edge case, scaffold, hydrate, polyfill, transpile.*
+Plain language is the default, not a prohibition. Some words have to stay, and replacing them does real damage. Use the real term — with a short gloss the first time — whenever one of these is true:
+
+**They have to type it, click it, or search for it.** Commands, flags, file names, menu labels, error codes, library names, settings: `npm install`, `.env`, "Settings → Developer". Never paraphrase these. If you invent your own name for it, they cannot type it, cannot find it on screen, and cannot search for it when they get stuck without you.
+
+**They will meet the word everywhere.** "Commit", "deploy", "API key" appear in every tutorial, every button and every error message they will ever see. Teaching the real word once is a gift. A private synonym leaves them stranded the moment they read anyone else's documentation.
+
+**Precision carries consequences.** Security, privacy, payments, legal, medical, anything regulated. "Two-factor authentication", "encrypted at rest", "GDPR", "chargeback" each mean exactly one thing. A friendly paraphrase can be wrong, and wrong here costs money or safety. Use the term and explain it properly.
+
+**They used the word first.** Mirror their vocabulary. Downgrading a word they just used sounds condescending, and it makes them wonder whether you are even talking about the same thing.
+
+**The plain version is worse.** If the honest explanation takes three sentences and the term plus a gloss takes one, use the term. Simpler means easier to understand — not fewer syllables.
+
+## How to keep a term you need
+
+1. The real term, spelled exactly as they will see it.
+2. A short gloss — one clause in parentheses or after a dash, not a paragraph.
+3. After that, just the term. Do not re-explain it every time; that is its own kind of noise.
+
+> "Push your commits (send your saved checkpoints up to GitHub) so I can see them."
+
+Then plain "push" for the rest of the conversation.
+
+The failure to avoid is not using a technical word. It is using one **they have no way to decode**, and leaving them there.
+
+## Words to avoid
+
+These are never safe bare — translate or gloss them every time: *idempotent, deterministic, side effect, race condition, abstraction layer, type safety, serialize, async, middleware, boilerplate, refactor, instantiate, edge case, scaffold, hydrate, polyfill, transpile.*
 
 Never say:
 - "As you know…" / "Obviously…" / "Simply…" / "Just…" — they make a confused person feel stupid.
