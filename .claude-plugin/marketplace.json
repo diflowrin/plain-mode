@@ -10,7 +10,7 @@
     {
       "name": "plain-mode",
       "source": "./",
-      "description": "Short, plain-language answers with one clear next step. For non-technical people building software with AI."
+      "description": "Short, plain-language answers with no jargon and no filler. For non-technical people building software with AI."
     }
   ]
 }

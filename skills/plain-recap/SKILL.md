@@ -17,11 +17,9 @@ When a non-technical user asks "where are we?", they are not asking for a change
 **Not started:** <the things still on the list>
 
 **Worth knowing:** <one thing that could bite them — only if there is one>
-
-**Next:** <one action>
 ```
 
-Keep the whole thing under 15 lines. If a section is empty, delete it.
+Keep it tight. If a section is empty, delete it rather than writing "nothing here".
 
 ## Rules
 

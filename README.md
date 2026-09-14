@@ -4,7 +4,7 @@
 
 Claude talks to you like you're a senior developer. You're not. You're building something.
 
-This is a small set of skills that changes how Claude talks — short answers, no jargon, and one clear thing to do next. Nothing about how it writes code changes. Only how it talks to you.
+This is a small set of skills that changes how Claude talks — as short as it can be without losing anything, and no jargon you cannot decode. Nothing about how it writes code changes. Only how it talks to you.
 
 ---
 
@@ -16,21 +16,18 @@ This is a small set of skills that changes how Claude talks — short answers, n
 
 **After**
 
-> Login checks now happen in one place instead of seven. Faster, and easier to fix if something goes wrong later.
->
-> **Next:** log out, log back in, and tell me if anything feels broken.
+> Login checks now happen in one place instead of seven. Faster, and easier to fix if something goes wrong later. Log out and back in to make sure it still works for you.
 
 ---
 
 ## What's inside
 
-Six skills. Each one fixes a specific annoyance.
+Five skills. Each one fixes a specific annoyance.
 
 | Skill | What it fixes |
 |---|---|
 | **plain-talk** | The jargon. Words get explained, or they don't get used. |
-| **short-answers** | The wall of text. Under 120 words unless you ask for more. |
-| **next-step** | The "…okay, and now what?" Every reply ends with one thing to do. |
+| **short-answers** | The wall of text. As short as the answer allows — long only when it has to be. |
 | **explain-first** | Surprise changes. Claude tells you what it's about to change, and waits. |
 | **error-translator** | The scary red text. Paste it, get plain English plus the fix. |
 | **plain-recap** | "Where am I with this?" Answered in features, not file names. |
@@ -63,7 +60,7 @@ That's it. Restart Claude Code.
 ### Option 2 — copy the folder
 
 1. Download this repo (green **Code** button → **Download ZIP**) and unzip it.
-2. Copy the six folders inside `skills/` into `~/.claude/skills/` on Mac/Linux, or `C:\Users\YourName\.claude\skills\` on Windows. Create the `skills` folder if it isn't there.
+2. Copy the five folders inside `skills/` into `~/.claude/skills/` on Mac/Linux, or `C:\Users\YourName\.claude\skills\` on Windows. Create the `skills` folder if it isn't there.
 3. Restart Claude Code.
 
 ---
@@ -99,7 +96,7 @@ Every skill is a plain text file. Open any `SKILL.md` and edit it — it's writt
 
 Some things people change:
 
-- **120 words is too short / too long.** Change the number in `skills/short-answers/SKILL.md`.
+- **Answers still too long, or now too clipped.** The length rule is a paragraph in `skills/short-answers/SKILL.md` — reword it tighter or looser.
 - **You want Claude to stop asking permission.** Delete `skills/explain-first/`, or remove that section from your `CLAUDE.md`.
 - **You know more than the README assumes.** Trim the jargon dictionary in `skills/plain-talk/SKILL.md` down to the words you actually don't know.
 - **You want it in your own language.** Claude answers in whatever language you write in. The skills work the same.

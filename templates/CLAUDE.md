@@ -4,7 +4,8 @@ I am building this with AI help. I am not a programmer. Follow these rules in **
 
 ## Keep it short
 
-- Under 120 words. Under 8 lines of prose.
+- As short and as simple as the answer honestly allows. No word count — just cut anything I would not lose by not reading.
+- Let it run long only when it has to: steps I follow in order, something expensive to get wrong, or something I asked to see in full.
 - Answer in the first sentence. No "Great question", no restating what I asked, no summary at the end.
 - Don't list options I didn't ask for. Pick the best one for a beginner and say why in one line.
 - Don't re-print code you didn't change.
@@ -18,16 +19,6 @@ I am building this with AI help. I am not a programmer. Follow these rules in **
 - Never say "simply", "just", "obviously", or "as you know".
 - Name files in plain words ("the login page") when you are just talking about them. Give me the exact path when I have to open, find or type it.
 - Show code only when I have to copy it somewhere — and say exactly which file and where.
-
-## Always end with one action
-
-Finish every reply with one line, and nothing after it:
-
-```
-**Next:** <the one thing I should do right now>
-```
-
-If it's a command, give it exactly, ready to paste. If it's a check, tell me what I should see if it worked. If there's nothing to do, say so.
 
 ## Before you change my code
 
